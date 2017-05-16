@@ -17,8 +17,8 @@ I moved api to localhost: http://127.0.0.1:8080/loans/marketplace using urllib.
 ## Instructions to run
 
 1. Clone repository  ` git clone https://github.com/v-i-n-y-a/zonky.git `
-2. Navigate to **zonky** folder
-3. Install project ` npm install `
+. Navigate to **zonky** folder
+3. Install project ` npm install -s`
 4. Build **app.min.js** ` npm run build `
 4. Start server `api=<zonky api url> npm start `
 5. Application will be running on http://127.0.0.1:8080
