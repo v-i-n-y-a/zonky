@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Img  /> Img with props should normal img tag 1`] = `
+<img
+  alt="Test Image"
+  class="img-responsive"
+  src="/loans/marketplacetest.jpg"
+/>
+`;
+
+exports[`<Img  /> Img without any properties 1`] = `<img />`;

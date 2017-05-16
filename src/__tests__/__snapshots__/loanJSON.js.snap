@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<loanJSON object for testing  /> it it will be changed Layout and ListView test will be changed also 1`] = `
+Object {
+  "amount": 350000,
+  "covered": false,
+  "datePublished": "2017-05-14T17:09:54.768+02:00",
+  "deadline": "2017-05-16T16:50:50.922+02:00",
+  "id": 1,
+  "interestRate": 0.0499,
+  "investmentRate": 0.33085714285714285,
+  "investmentsCount": 229,
+  "mainIncomeType": "SELF_EMPLOYMENT",
+  "name": "Pomoc investorů investorovi",
+  "nickName": "zonky114025",
+  "photos": Array [
+    Object {
+      "name": "file.png",
+      "url": "/loans/88873/photos/8937",
+    },
+  ],
+  "published": true,
+  "purpose": "8",
+  "questionsCount": 1,
+  "rating": "AAAA",
+  "region": "14",
+  "remainingInvestment": 234200,
+  "story": "Mala hystorie",
+  "termInMonths": 38,
+  "topped": null,
+  "userId": 114025,
+}
+`;
