@@ -12,12 +12,12 @@ export default class ShortLoanView extends Component {
     let words = text.split(/\r?\n|\s/);
     let addEllipsis = false;
     if (words.length > maxWordsNum) {
-      words = words.slice(0, maxWordsNum - 1);
+      words = words.slice(0, maxWordsNum);
       text = words.join(" ");
       addEllipsis = true;
     }
     if (text.length > maxLen) {
-      text = text.substr(0, max - 1);
+      text = text.substr(0, max);
       addEllipsis = true;
     }
     return addEllipsis ? text = `${text}...` : text;
