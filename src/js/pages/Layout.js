@@ -60,7 +60,7 @@ export default class Layout extends Component {
     return (
       <Router>
         <div class="container">
-          <div class="row align-items-start">
+          <div class="row">
             {loans
               ? <div class="col-lg-12">
                   <Route
@@ -69,6 +69,7 @@ export default class Layout extends Component {
                       <div>
                         <ViewHeader title="Zonky" />
                         <LoanView loan={this.getLoan(match.params.loanId)} />
+                        <Footer />
                       </div>
                     )}
                   />
@@ -81,13 +82,13 @@ export default class Layout extends Component {
                           <SortBar sortMethod={this.changeOrder} sorted={sorted}/>
                         </ListHeader>
                         <LoansList loans={loans} />
+                        <Footer />
                       </div>
                     )}
                   />
                 </div>
-              : <div>Loading...</div>}
+              : <div class="loader"></div>}
           </div>
-          <Footer />
         </div>
       </Router>
     );

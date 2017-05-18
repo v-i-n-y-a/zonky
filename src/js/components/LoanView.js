@@ -7,8 +7,8 @@ const Info = ({ title, value }) => {
   else if (value === false) value = "Ne";
   return (
     <p>
-      <span class="text-warning">{title}</span>:
-      &nbsp; {value}
+      <span class=".info .info-title">{title}</span>:
+      <span class=".info .info-value">{value}</span>
     </p>
   );
 };
