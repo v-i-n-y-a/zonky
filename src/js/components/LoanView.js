@@ -6,16 +6,16 @@ const Info = ({ title, value }) => {
   if (value === true) value = "Ano";
   else if (value === false) value = "Ne";
   return (
-    <p>
-      <span class=".info .info-title">{title}</span>:
-      <span class=".info .info-value">{value}</span>
+    <p class="info">
+      <span class="info-title">{title}:</span>
+      <span class="info-value">{value}</span>
     </p>
   );
 };
 
 const LoanView = ({ loan }) => {
   return (
-    <div class="jumbotron list-group">
+    <div class="loan-view jumbotron list-group">
       <div class="row">
         <div class="col-md-4">
           {loan.photos.map((photo, index) => (

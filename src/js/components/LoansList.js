@@ -11,7 +11,7 @@ export default class LoansList extends Component {
       <div>
         {rows
           ? rows.map((loans, index) => (
-              <div class="row" key={index}>
+              <div class="row container-fluid" key={index}>
                 {loans &&
                   loans.map((loan, index) => (
                     <ShortLoanView loan={loan} key={index} />

@@ -2,7 +2,7 @@
 
 exports[`<LoanView loan={loan} /> LoanView renders correctly 1`] = `
 <div
-  class="jumbotron list-group"
+  class="loan-view jumbotron list-group"
 >
   <div
     class="row"
@@ -18,41 +18,65 @@ exports[`<LoanView loan={loan} /> LoanView renders correctly 1`] = `
       <h2>
         Další informace
       </h2>
-      <p>
+      <p
+        class="info"
+      >
         <span
-          class="text-warning"
+          class="info-title"
         >
           Úroková sazba
+          :
         </span>
-        :   
-        0.0499%
-      </p>
-      <p>
         <span
-          class="text-warning"
+          class="info-value"
+        >
+          0.0499%
+        </span>
+      </p>
+      <p
+        class="info"
+      >
+        <span
+          class="info-title"
         >
           Uzávěrka
+          :
         </span>
-        :   
-        2017-05-16
-      </p>
-      <p>
         <span
-          class="text-warning"
+          class="info-value"
+        >
+          2017-05-16
+        </span>
+      </p>
+      <p
+        class="info"
+      >
+        <span
+          class="info-title"
         >
           Částka
+          :
         </span>
-        :   
-        350000Kč
-      </p>
-      <p>
         <span
-          class="text-warning"
+          class="info-value"
+        >
+          350000Kč
+        </span>
+      </p>
+      <p
+        class="info"
+      >
+        <span
+          class="info-title"
         >
           Na jak dlouho
+          :
         </span>
-        :   
-        38 Měsicu
+        <span
+          class="info-value"
+        >
+          38 Měsicu
+        </span>
       </p>
     </div>
     <div
@@ -71,32 +95,50 @@ exports[`<LoanView loan={loan} /> LoanView renders correctly 1`] = `
       <div
         class="loan-view-details"
       >
-        <p>
+        <p
+          class="info"
+        >
           <span
-            class="text-warning"
+            class="info-title"
           >
             Autor
+            :
           </span>
-          :   
-          zonky114025
-        </p>
-        <p>
           <span
-            class="text-warning"
+            class="info-value"
+          >
+            zonky114025
+          </span>
+        </p>
+        <p
+          class="info"
+        >
+          <span
+            class="info-title"
           >
             Bylo Publikováno
+            :
           </span>
-          :   
-          2017-05-14
-        </p>
-        <p>
           <span
-            class="text-warning"
+            class="info-value"
+          >
+            2017-05-14
+          </span>
+        </p>
+        <p
+          class="info"
+        >
+          <span
+            class="info-title"
           >
             Hodnocení
+            :
           </span>
-          :   
-          AAAA
+          <span
+            class="info-value"
+          >
+            AAAA
+          </span>
         </p>
       </div>
     </div>

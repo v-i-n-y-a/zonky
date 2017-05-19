@@ -26,8 +26,8 @@ export default class ShortLoanView extends Component {
   render() {
     const { loan } = this.props;
     return (
-      <div class="col-md-4">
-        <Link class="list-group-item" to={`/loan/${loan.id}`}>
+      <div class="short-loan-view col-md-4">
+        <Link class="link list-group-item" to={`/loan/${loan.id}`}>
           <h2>
             {loan.name}
           </h2>

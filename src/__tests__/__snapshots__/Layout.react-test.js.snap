@@ -5,22 +5,12 @@ exports[`<Layout  /> fetch Layout renders correctly 1`] = `
   class="container"
 >
   <div
-    class="row align-items-start"
+    class="row"
   >
-    <div>
-      Loading...
-    </div>
+    <div
+      class="loader"
+    />
   </div>
-  <footer
-    class="footer"
-  >
-     Made by Olga Golovko. Contact me at 
-    <a
-      href="mailto:golovko.olga.leonid@gmail.com"
-    >
-      golovko.olga.leonid@gmail.com
-    </a>
-  </footer>
 </div>
 `;
 
